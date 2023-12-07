@@ -1,0 +1,112 @@
+@media screen and (max-width: 1200px) {
+  .nav-toggle {
+    display: block;
+    color: black;
+  }
+  .location-icon {
+    display: none;
+  }
+  .select-address {
+    display: none;
+  }
+  .cart-icon {
+    display: none;
+  }
+  .profile-icon {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+  .card {
+    width: 40%;
+  }
+  .scroll-text #heading {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 999px) {
+  body{
+    margin: 0 auto;
+  }
+  .main {
+    padding-top: 1rem;
+    margin: 0 auto;
+  }
+  .head {
+    position: relative;
+  }
+  .head {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .card {
+    width: 50%;
+    height: 10rem;
+  }
+  .scroll-text #heading {
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .main {
+    width: 100%;
+    margin: 0 0 0 8%;
+  }
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card {
+    width: 60%;
+    height: 10rem;
+  }
+  .scroll-content {
+    height: 10rem;
+  }
+  .scroll-text #heading {
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+  .banner-section {
+    width: 100%;
+    height: 7rem;
+  }
+  .poster-section {
+    height: 7rem;
+    display: inline;
+  }
+  .poster-1 {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .poster-2 {
+    width: 100%;
+  }
+  .banner-section-women-care {
+    width: 100%;
+    margin-top: -1rem;
+  }
+  .women-wellness-heading {
+    margin-top: -2rem;
+  }
+  .steps-to-book-section {
+    width: 100%;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
+  .footer-container {
+    width: 100%;
+  }
+}
+/* @media screen and (max-width: 450px){
+  .main{
+    margin: 0 10% 0 %;
+  }
+
+} */
